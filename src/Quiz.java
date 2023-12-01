@@ -66,11 +66,11 @@ public class Quiz {
                     cont++;
                 }
                 Questao questao5 = new Questao();//parte para inicio
-                questao5.pergunta = "Quem é O fundador da apple";
-                questao5.opcaoA = "A - Elon musk";
-                questao5.opcaoB = "B - Steve Jobs";
-                questao5.opcaoC = "C - Alan Turing";
-                questao5.opcaoD = "D - Stephen Hawking";
+                questao5.pergunta = "primeiro tanque";
+                questao5.opcaoA = "A - Renalt-17";
+                questao5.opcaoB = "B - mark1";
+                questao5.opcaoC = "C - Sherman";
+                questao5.opcaoD = "D - Pazer";
                 questao5.opcaoE = "E - Bill Gates";
                 questao5.correta = "B";
                 questao5.escrevaQuestao();
@@ -80,12 +80,9 @@ public class Quiz {
                     ;
                 }
                 Questao questao6 = new Questao();
-                questao6.pergunta = "Quem é O fundador da apple";
-                questao6.opcaoA = "A - Elon musk";
-                questao6.opcaoB = "B - Steve Jobs";
-                questao6.opcaoC = "C - Alan Turing";
-                questao6.opcaoD = "D - Stephen Hawking";
-                questao6.opcaoE = "E - Bill Gates";
+                questao6.pergunta = "ouve navios mercantes feitos de cimento nas guerras";
+                questao6.opcaoA = "A - nao";
+                questao6.opcaoB = "B - sim";
                 questao6.correta = "B";
                 questao6.escrevaQuestao();
                 respostaUsuario = r.leiaResposta();
@@ -94,13 +91,13 @@ public class Quiz {
                 }
 
                 Questao questao7 = new Questao();
-                questao7.pergunta = "Quem é O fundador da apple";
-                questao7.opcaoA = "A - Elon musk";
-                questao7.opcaoB = "B - Steve Jobs";
-                questao7.opcaoC = "C - Alan Turing";
-                questao7.opcaoD = "D - Stephen Hawking";
-                questao7.opcaoE = "E - Bill Gates";
-                questao7.correta = "B";
+                questao7.pergunta = "qual foi o primeiro jato criado";
+                questao7.opcaoA = "A - BF 110";
+                questao7.opcaoB = "B - P-51 mostang";
+                questao7.opcaoC = "C - Messerschmitt Me 262";
+                questao7.opcaoD = "D - Meteror";
+                questao7.opcaoE = "E - P-47 tamderbolt";
+                questao7.correta = "C";
                 questao7.escrevaQuestao();
                 respostaUsuario = r.leiaResposta();
                 if (questao7.isCorreta(respostaUsuario)) {
@@ -120,25 +117,19 @@ public class Quiz {
                     cont++;
                 }
                 Questao questao9 = new Questao();
-                questao9.pergunta = "Quem é O fundador da apple";
-                questao9.opcaoA = "A - Elon musk";
-                questao9.opcaoB = "B - Steve Jobs";
-                questao9.opcaoC = "C - Alan Turing";
-                questao9.opcaoD = "D - Stephen Hawking";
-                questao9.opcaoE = "E - Bill Gates";
-                questao9.correta = "B";
+                questao9.pergunta = "maior navio de guerra do ocidente ja criado";
+                questao9.opcaoA = "A -Bismark ";
+                questao9.opcaoB = "B - Yamato";
+                questao9.correta = "A";
                 questao9.escrevaQuestao();
                 respostaUsuario = r.leiaResposta();
                 if (questao9.isCorreta(respostaUsuario)) {
                     cont++;
                 }
                 Questao questao10 = new Questao();
-                questao10.pergunta = "Quem é O fundador da apple";
-                questao10.opcaoA = "A - Elon musk";
-                questao10.opcaoB = "B - Steve Jobs";
-                questao10.opcaoC = "C - Alan Turing";
-                questao10.opcaoD = "D - Stephen Hawking";
-                questao10.opcaoE = "E - Bill Gates";
+                questao10.pergunta = "maior navio de guerra oriental";
+                questao10.opcaoA = "A - Bismark";
+                questao10.opcaoB = "B - Yamato";
                 questao10.correta = "B";
                 questao10.escrevaQuestao();
                 respostaUsuario = r.leiaResposta();
@@ -146,25 +137,25 @@ public class Quiz {
                     cont++;
                 }
                 Questao questao11 = new Questao();
-                questao11.pergunta = "Quem é O fundador da apple";
-                questao11.opcaoA = "A - Elon musk";
-                questao11.opcaoB = "B - Steve Jobs";
-                questao11.opcaoC = "C - Alan Turing";
-                questao11.opcaoD = "D - Stephen Hawking";
-                questao11.opcaoE = "E - Bill Gates";
-                questao11.correta = "B";
+                questao11.pergunta = "Em assebly o comando mov eax, 4 mov ebx, 1 faz qual açao";
+                questao11.opcaoA = "A - dis por onde a mensagem vai sair";
+                questao11.opcaoB = "B - dis por onde a mensagem vai entra";
+                questao11.opcaoC = "C - dis o tamanho da mensagem";
+                questao11.opcaoD = "D - dis a mensagem";
+                questao11.opcaoE = "E - nada";
+                questao11.correta = "A";
                 questao11.escrevaQuestao();
                 respostaUsuario = r.leiaResposta();
                 if (questao11.isCorreta(respostaUsuario)) {
                     cont++;
                 }
                 Questao questao12 =new Questao();
-                questao12.pergunta = "Quem é O fundador da apple";
-                questao12.opcaoA = "A - Elon musk";
-                questao12.opcaoB = "B - Steve Jobs";
-                questao12.opcaoC = "C - Alan Turing";
-                questao12.opcaoD = "D - Stephen Hawking";
-                questao12.opcaoE = "E - Bill Gates";
+                questao12.pergunta = "no comando comando mov eax,3 mov ebx,0 ";
+                questao12.opcaoA = "A - dis por onde a mensagem vai sair";
+                questao12.opcaoB = "B - por onde vai entra";
+                questao12.opcaoC = "C - dis o tamanho da mensagem";
+                questao12.opcaoD = "D - dis a mensagem";
+                questao12.opcaoE = "E - nada";
                 questao12.correta = "B";
                 questao12.escrevaQuestao();
                 respostaUsuario = r.leiaResposta();
@@ -172,11 +163,11 @@ public class Quiz {
                     cont++;
                 }
                 Questao questao13= new Questao();
-                questao13.pergunta = "Quem é O fundador da apple";
-                questao13.opcaoA = "A - Elon musk";
-                questao13.opcaoB = "B - Steve Jobs";
-                questao13.opcaoC = "C - Alan Turing";
-                questao13.opcaoD = "D - Stephen Hawking";
+                questao13.pergunta = "o comando tam equ $-msg";
+                questao13.opcaoA = "A - dis por onde entra";
+                questao13.opcaoB = "B - por onde sai";
+                questao13.opcaoC = "C - mede e fala o tamanho da mensagem";
+                questao13.opcaoD = "D - dis a mensagem";
                 questao13.opcaoE = "E - Bill Gates";
                 questao13.correta = "B";
                 questao13.escrevaQuestao();
